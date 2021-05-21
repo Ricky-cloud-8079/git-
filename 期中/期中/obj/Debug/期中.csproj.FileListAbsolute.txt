@@ -1,0 +1,14 @@
+C:\Users\s1003\OneDrive\桌面\期中\期中\bin\Debug\期中.exe.config
+C:\Users\s1003\OneDrive\桌面\期中\期中\bin\Debug\期中.exe
+C:\Users\s1003\OneDrive\桌面\期中\期中\bin\Debug\期中.pdb
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.csprojAssemblyReference.cache
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.Properties.Resources.resources
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.csproj.GenerateResource.cache
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.csproj.CoreCompileInputs.cache
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.exe
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.pdb
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.Form1.resources
+C:\Users\s1003\OneDrive\桌面\期中\期中\bin\Debug\zh-Hant\期中.resources.dll
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.Form1.zh-Hant.resources
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\zh-Hant\期中.resources.dll
+C:\Users\s1003\OneDrive\桌面\期中\期中\obj\Debug\期中.Form2.resources
