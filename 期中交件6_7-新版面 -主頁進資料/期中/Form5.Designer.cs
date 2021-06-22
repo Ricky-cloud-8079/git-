@@ -236,7 +236,7 @@ namespace 期中
             this.訂購單ExpansionPanel1.Depth = 0;
             this.訂購單ExpansionPanel1.Description = "";
             this.訂購單ExpansionPanel1.DrawShadows = false;
-            this.訂購單ExpansionPanel1.ExpandHeight = 787;
+            this.訂購單ExpansionPanel1.ExpandHeight = 200;
             this.訂購單ExpansionPanel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.訂購單ExpansionPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.訂購單ExpansionPanel1.Location = new System.Drawing.Point(344, 93);
@@ -246,7 +246,7 @@ namespace 期中
             this.訂購單ExpansionPanel1.Name = "訂購單ExpansionPanel1";
             this.訂購單ExpansionPanel1.Padding = new System.Windows.Forms.Padding(24, 59, 24, 15);
             this.訂購單ExpansionPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.訂購單ExpansionPanel1.Size = new System.Drawing.Size(800, 787);
+            this.訂購單ExpansionPanel1.Size = new System.Drawing.Size(800, 200);
             this.訂購單ExpansionPanel1.TabIndex = 9;
             this.訂購單ExpansionPanel1.Title = "訂購單";
             this.訂購單ExpansionPanel1.UseAccentColor = true;
@@ -415,13 +415,13 @@ namespace 期中
             this.materialCard4.Controls.Add(this.materialCard2);
             this.materialCard4.Depth = 0;
             this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard4.Location = new System.Drawing.Point(450, 183);
+            this.materialCard4.Location = new System.Drawing.Point(450, 165);
             this.materialCard4.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.materialCard4.MaximumSize = new System.Drawing.Size(1500, 1300);
             this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard4.Name = "materialCard4";
             this.materialCard4.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard4.Size = new System.Drawing.Size(1397, 901);
+            this.materialCard4.Size = new System.Drawing.Size(1310, 901);
             this.materialCard4.TabIndex = 21;
             // 
             // materialCard16
@@ -438,7 +438,7 @@ namespace 期中
             this.materialCard16.Controls.Add(this.materialCard29);
             this.materialCard16.Depth = 0;
             this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard16.Location = new System.Drawing.Point(1403, 1108);
+            this.materialCard16.Location = new System.Drawing.Point(1403, 1266);
             this.materialCard16.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.materialCard16.MaximumSize = new System.Drawing.Size(1500, 1300);
             this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
@@ -947,7 +947,7 @@ namespace 期中
             this.materialButton12.Depth = 0;
             this.materialButton12.HighEmphasis = false;
             this.materialButton12.Icon = null;
-            this.materialButton12.Location = new System.Drawing.Point(4802, 1181);
+            this.materialButton12.Location = new System.Drawing.Point(6234, 1181);
             this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton12.Name = "materialButton12";
@@ -1685,7 +1685,7 @@ namespace 期中
             this.materialCard7.Controls.Add(this.materialLabel5);
             this.materialCard7.Depth = 0;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard7.Location = new System.Drawing.Point(0, 183);
+            this.materialCard7.Location = new System.Drawing.Point(0, 174);
             this.materialCard7.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
@@ -2242,6 +2242,7 @@ namespace 期中
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(101F, 101F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

@@ -222,7 +222,6 @@ C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\bin\Debug\期中.pdb
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\bin\Debug\zh-Hant\期中.resources.dll
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\bin\Debug\MaterialSkin.dll
-C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.csprojAssemblyReference.cache
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.Form1.resources
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.Form2.resources
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.Form4.resources
@@ -235,3 +234,5 @@ C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.csproj.CopyComplete
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.exe
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.pdb
+C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.Form6.resources
+C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料 - 開始\期中\obj\Debug\期中.csprojAssemblyReference.cache

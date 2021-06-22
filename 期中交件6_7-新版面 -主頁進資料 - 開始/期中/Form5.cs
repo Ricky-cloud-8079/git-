@@ -27,6 +27,11 @@ namespace 期中
 
             //主色,主元件色,主元件hover
 
+            訂購單ExpansionPanel1.Size = new Size(800, 787);
+            訂購單ExpansionPanel1.Collapse = true;
+            materialCard16.Visible = false;
+            materialCard16.Size = new Size(1397,901);
+            materialCard16.Location = new Point(1726,183);
 
 
         }
@@ -43,13 +48,21 @@ namespace 期中
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            this.Visible = true;
+            this.AutoScroll = false;
+            Form6 form6 = new Form6();
+            form6.ShowDialog();
+            
             if (分權標籤materialLabel5.Text == "管理者")
             {
                 btn管理系統materialButton21.Visible = true;
             }
-            else { btn管理系統materialButton21.Visible = false; }
+            else {
+                分權標籤materialLabel5.Location = new Point(17, 47);
+                btn管理系統materialButton21.Visible = false; }
 
             訂購單ExpansionPanel1.BorderStyle = BorderStyle.FixedSingle;
+            訂購單ExpansionPanel1.Size = new Size(800,787);
             訂購單ExpansionPanel1.Collapse = true;
             richTextBox1備註.BorderStyle = BorderStyle.FixedSingle;
         }
@@ -78,10 +91,14 @@ namespace 期中
             
         }
 
+
+        //收藏check
         private void materialSwitch2_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch2.Checked)
             {
+                materialCard16.Location = new Point(450, 183);
+
                 materialCard16.Visible = true;
                 panel1.Enabled = false;
             }

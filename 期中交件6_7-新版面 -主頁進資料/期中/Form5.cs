@@ -78,11 +78,14 @@ namespace 期中
             
         }
 
+
+        //收藏
         private void materialSwitch2_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch2.Checked)
             {
                 materialCard16.Visible = true;
+                materialCard6.BringToFront();
                 panel1.Enabled = false;
             }
             else

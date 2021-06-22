@@ -217,3 +217,4 @@ C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料\�
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料\期中\obj\Debug\期中.csproj.CopyComplete
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料\期中\obj\Debug\期中.exe
 C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料\期中\obj\Debug\期中.pdb
+C:\Users\s1003\OneDrive\桌面\Git\期中交件6_7-新版面 -主頁進資料\期中\obj\Debug\期中.Form6.resources

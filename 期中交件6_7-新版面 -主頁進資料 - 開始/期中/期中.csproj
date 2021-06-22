@@ -103,6 +103,9 @@
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -168,7 +171,10 @@
     <Content Include="Resources\baseline_favorite_border_black_24dp.png" />
     <Content Include="Resources\baseline_fingerprint_black_24dp.png" />
     <Content Include="Resources\baseline_thumb_up_black_24dp.png" />
+    <None Include="Resources\thumb-1920-441966 %282%29.jpg" />
     <None Include="Resources\icons8-heart-96.png" />
+    <None Include="Resources\icons8-user-96 %282%29.png" />
+    <None Include="Resources\dfe0cd4678fe082cf6990e949b6f178a.jpg" />
     <Content Include="Resources\minus.png" />
     <Content Include="Resources\plus.png" />
     <Content Include="Resources\round_add_black_24dp.png" />

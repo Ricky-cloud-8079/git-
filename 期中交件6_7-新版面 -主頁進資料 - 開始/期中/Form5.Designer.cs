@@ -29,53 +29,22 @@ namespace 期中
         /// </summary>
         private void InitializeComponent()
         {
-            MaterialSkin.MaterialListBoxItem materialListBoxItem7 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem8 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem9 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem10 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem11 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem12 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem19 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem20 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem21 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem22 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem23 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem24 = new MaterialSkin.MaterialListBoxItem();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.訂購單ExpansionPanel1 = new MaterialSkin.Controls.MaterialExpansionPanel();
+            this.richTextBox1備註 = new System.Windows.Forms.RichTextBox();
             this.materialButton15送出訂購單 = new MaterialSkin.Controls.MaterialButton();
             this.materialListBox1學員訂購單 = new MaterialSkin.Controls.MaterialListBox();
             this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton20 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton18 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard4 = new MaterialSkin.Controls.MaterialCard();
-            this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialCard24 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton25 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.materialCard25 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton26 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.materialCard26 = new MaterialSkin.Controls.MaterialCard();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.materialButton27 = new MaterialSkin.Controls.MaterialButton();
-            this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.materialCard27 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.materialMultiLineTextBox24 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.materialCard28 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.materialMultiLineTextBox25 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton29 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.materialCard29 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.materialMultiLineTextBox26 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton30 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
             this.materialLabel41 = new MaterialSkin.Controls.MaterialLabel();
             this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
             this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
@@ -123,6 +92,39 @@ namespace 期中
             this.materialMultiLineTextBox2 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialCard24 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton25 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.materialCard25 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton26 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox44 = new System.Windows.Forms.PictureBox();
+            this.materialCard26 = new MaterialSkin.Controls.MaterialCard();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.materialButton27 = new MaterialSkin.Controls.MaterialButton();
+            this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.pictureBox46 = new System.Windows.Forms.PictureBox();
+            this.materialCard27 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
+            this.materialMultiLineTextBox24 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.materialCard28 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.materialMultiLineTextBox25 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton29 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox50 = new System.Windows.Forms.PictureBox();
+            this.materialCard29 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox51 = new System.Windows.Forms.PictureBox();
+            this.materialMultiLineTextBox26 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton30 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox52 = new System.Windows.Forms.PictureBox();
             this.materialCard11 = new MaterialSkin.Controls.MaterialCard();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
@@ -161,30 +163,8 @@ namespace 期中
             this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
             this.btn管理系統materialButton21 = new MaterialSkin.Controls.MaterialButton();
             this.materialCard10 = new MaterialSkin.Controls.MaterialCard();
-            this.richTextBox1備註 = new System.Windows.Forms.RichTextBox();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.訂購單ExpansionPanel1.SuspendLayout();
             this.materialCard4.SuspendLayout();
-            this.materialCard16.SuspendLayout();
-            this.materialCard24.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            this.materialCard25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            this.materialCard26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            this.materialCard27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            this.materialCard28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
-            this.materialCard29.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
             this.materialCard13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -212,6 +192,26 @@ namespace 期中
             this.materialCard2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.materialCard16.SuspendLayout();
+            this.materialCard24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            this.materialCard25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
+            this.materialCard26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
+            this.materialCard27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
+            this.materialCard28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
+            this.materialCard29.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
             this.materialCard11.SuspendLayout();
             this.materialCard7.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -226,6 +226,7 @@ namespace 期中
             this.訂購單ExpansionPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.訂購單ExpansionPanel1.CancelButtonText = "";
             this.訂購單ExpansionPanel1.CausesValidation = false;
+            this.訂購單ExpansionPanel1.Collapse = true;
             this.訂購單ExpansionPanel1.Controls.Add(this.richTextBox1備註);
             this.訂購單ExpansionPanel1.Controls.Add(this.materialButton15送出訂購單);
             this.訂購單ExpansionPanel1.Controls.Add(this.materialListBox1學員訂購單);
@@ -236,23 +237,34 @@ namespace 期中
             this.訂購單ExpansionPanel1.Depth = 0;
             this.訂購單ExpansionPanel1.Description = "";
             this.訂購單ExpansionPanel1.DrawShadows = false;
-            this.訂購單ExpansionPanel1.ExpandHeight = 787;
+            this.訂購單ExpansionPanel1.ExpandHeight = 200;
             this.訂購單ExpansionPanel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.訂購單ExpansionPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.訂購單ExpansionPanel1.Location = new System.Drawing.Point(344, 93);
-            this.訂購單ExpansionPanel1.Margin = new System.Windows.Forms.Padding(16);
+            this.訂購單ExpansionPanel1.Margin = new System.Windows.Forms.Padding(16, 1, 16, 0);
             this.訂購單ExpansionPanel1.MaximumSize = new System.Drawing.Size(800, 0);
             this.訂購單ExpansionPanel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.訂購單ExpansionPanel1.Name = "訂購單ExpansionPanel1";
             this.訂購單ExpansionPanel1.Padding = new System.Windows.Forms.Padding(24, 59, 24, 15);
             this.訂購單ExpansionPanel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.訂購單ExpansionPanel1.Size = new System.Drawing.Size(800, 787);
+            this.訂購單ExpansionPanel1.Size = new System.Drawing.Size(800, 48);
             this.訂購單ExpansionPanel1.TabIndex = 9;
             this.訂購單ExpansionPanel1.Title = "訂購單";
             this.訂購單ExpansionPanel1.UseAccentColor = true;
             this.訂購單ExpansionPanel1.ValidationButtonEnable = true;
             this.訂購單ExpansionPanel1.ValidationButtonText = "NT$ 180元";
             this.訂購單ExpansionPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.訂購單ExpansionPanel1_Paint);
+            // 
+            // richTextBox1備註
+            // 
+            this.richTextBox1備註.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1備註.Location = new System.Drawing.Point(27, 504);
+            this.richTextBox1備註.Name = "richTextBox1備註";
+            this.richTextBox1備註.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.richTextBox1備註.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox1備註.Size = new System.Drawing.Size(744, 141);
+            this.richTextBox1備註.TabIndex = 26;
+            this.richTextBox1備註.Text = "";
             // 
             // materialButton15送出訂購單
             // 
@@ -280,30 +292,30 @@ namespace 期中
             this.materialListBox1學員訂購單.BorderColor = System.Drawing.Color.Red;
             this.materialListBox1學員訂購單.Depth = 0;
             this.materialListBox1學員訂購單.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            materialListBoxItem7.SecondaryText = "";
-            materialListBoxItem7.Tag = null;
-            materialListBoxItem7.Text = "ListBoxItem1";
-            materialListBoxItem8.SecondaryText = "";
-            materialListBoxItem8.Tag = null;
-            materialListBoxItem8.Text = "ListBoxItem2";
-            materialListBoxItem9.SecondaryText = "";
-            materialListBoxItem9.Tag = null;
-            materialListBoxItem9.Text = "ListBoxItem3";
-            materialListBoxItem10.SecondaryText = "";
-            materialListBoxItem10.Tag = null;
-            materialListBoxItem10.Text = "ListBoxItem4";
-            materialListBoxItem11.SecondaryText = "";
-            materialListBoxItem11.Tag = null;
-            materialListBoxItem11.Text = "ListBoxItem5";
-            materialListBoxItem12.SecondaryText = "";
-            materialListBoxItem12.Tag = null;
-            materialListBoxItem12.Text = "ListBoxItem6";
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem7);
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem8);
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem9);
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem10);
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem11);
-            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem12);
+            materialListBoxItem19.SecondaryText = "";
+            materialListBoxItem19.Tag = null;
+            materialListBoxItem19.Text = "ListBoxItem1";
+            materialListBoxItem20.SecondaryText = "";
+            materialListBoxItem20.Tag = null;
+            materialListBoxItem20.Text = "ListBoxItem2";
+            materialListBoxItem21.SecondaryText = "";
+            materialListBoxItem21.Tag = null;
+            materialListBoxItem21.Text = "ListBoxItem3";
+            materialListBoxItem22.SecondaryText = "";
+            materialListBoxItem22.Tag = null;
+            materialListBoxItem22.Text = "ListBoxItem4";
+            materialListBoxItem23.SecondaryText = "";
+            materialListBoxItem23.Tag = null;
+            materialListBoxItem23.Text = "ListBoxItem5";
+            materialListBoxItem24.SecondaryText = "";
+            materialListBoxItem24.Tag = null;
+            materialListBoxItem24.Text = "ListBoxItem6";
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem19);
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem20);
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem21);
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem22);
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem23);
+            this.materialListBox1學員訂購單.Items.Add(materialListBoxItem24);
             this.materialListBox1學員訂購單.Location = new System.Drawing.Point(27, 66);
             this.materialListBox1學員訂購單.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialListBox1學員訂購單.Name = "materialListBox1學員訂購單";
@@ -370,6 +382,19 @@ namespace 期中
             this.materialButton18.UseAccentColor = false;
             this.materialButton18.UseVisualStyleBackColor = true;
             // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.materialLabel8.Location = new System.Drawing.Point(27, 460);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(37, 19);
+            this.materialLabel8.TabIndex = 13;
+            this.materialLabel8.Text = "備註:";
+            // 
             // materialCard4
             // 
             this.materialCard4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
@@ -377,7 +402,6 @@ namespace 期中
             this.materialCard4.AutoScroll = true;
             this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard4.Controls.Add(this.訂購單ExpansionPanel1);
-            this.materialCard4.Controls.Add(this.materialCard16);
             this.materialCard4.Controls.Add(this.materialLabel41);
             this.materialCard4.Controls.Add(this.materialButton12);
             this.materialCard4.Controls.Add(this.materialCard13);
@@ -391,514 +415,14 @@ namespace 期中
             this.materialCard4.Controls.Add(this.materialCard2);
             this.materialCard4.Depth = 0;
             this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard4.Location = new System.Drawing.Point(450, 183);
+            this.materialCard4.Location = new System.Drawing.Point(450, 165);
             this.materialCard4.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.materialCard4.MaximumSize = new System.Drawing.Size(1500, 1300);
             this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard4.Name = "materialCard4";
             this.materialCard4.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard4.Size = new System.Drawing.Size(1397, 901);
+            this.materialCard4.Size = new System.Drawing.Size(1500, 901);
             this.materialCard4.TabIndex = 21;
-            // 
-            // materialCard16
-            // 
-            this.materialCard16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.materialCard16.AutoScroll = true;
-            this.materialCard16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard16.Controls.Add(this.materialLabel7);
-            this.materialCard16.Controls.Add(this.materialCard24);
-            this.materialCard16.Controls.Add(this.materialCard25);
-            this.materialCard16.Controls.Add(this.materialCard26);
-            this.materialCard16.Controls.Add(this.materialCard27);
-            this.materialCard16.Controls.Add(this.materialCard28);
-            this.materialCard16.Controls.Add(this.materialCard29);
-            this.materialCard16.Depth = 0;
-            this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard16.Location = new System.Drawing.Point(1403, 950);
-            this.materialCard16.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard16.MaximumSize = new System.Drawing.Size(1500, 1300);
-            this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard16.Name = "materialCard16";
-            this.materialCard16.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard16.Size = new System.Drawing.Size(1426, 916);
-            this.materialCard16.TabIndex = 22;
-            this.materialCard16.Visible = false;
-            // 
-            // materialLabel7
-            // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H3;
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel7.Location = new System.Drawing.Point(70, 13);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(193, 58);
-            this.materialLabel7.TabIndex = 79;
-            this.materialLabel7.Text = "個人收藏";
-            this.materialLabel7.UseAccent = true;
-            // 
-            // materialCard24
-            // 
-            this.materialCard24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard24.Controls.Add(this.pictureBox41);
-            this.materialCard24.Controls.Add(this.materialMultiLineTextBox21);
-            this.materialCard24.Controls.Add(this.materialButton25);
-            this.materialCard24.Controls.Add(this.pictureBox42);
-            this.materialCard24.Depth = 0;
-            this.materialCard24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard24.Location = new System.Drawing.Point(80, 540);
-            this.materialCard24.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard24.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard24.Name = "materialCard24";
-            this.materialCard24.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard24.Size = new System.Drawing.Size(606, 153);
-            this.materialCard24.TabIndex = 11;
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox41.BackColor = System.Drawing.Color.White;
-            this.pictureBox41.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox41.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox41.TabIndex = 9;
-            this.pictureBox41.TabStop = false;
-            // 
-            // materialMultiLineTextBox21
-            // 
-            this.materialMultiLineTextBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox21.Depth = 0;
-            this.materialMultiLineTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox21.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox21.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox21.Name = "materialMultiLineTextBox21";
-            this.materialMultiLineTextBox21.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox21.TabIndex = 7;
-            this.materialMultiLineTextBox21.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // materialButton25
-            // 
-            this.materialButton25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton25.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton25.Depth = 0;
-            this.materialButton25.HighEmphasis = false;
-            this.materialButton25.Icon = null;
-            this.materialButton25.Location = new System.Drawing.Point(505, 101);
-            this.materialButton25.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton25.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton25.Name = "materialButton25";
-            this.materialButton25.Size = new System.Drawing.Size(85, 36);
-            this.materialButton25.TabIndex = 1;
-            this.materialButton25.Text = "加入餐點";
-            this.materialButton25.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton25.UseAccentColor = true;
-            this.materialButton25.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox42.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox42.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox42.TabIndex = 0;
-            this.pictureBox42.TabStop = false;
-            // 
-            // materialCard25
-            // 
-            this.materialCard25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard25.Controls.Add(this.pictureBox43);
-            this.materialCard25.Controls.Add(this.materialMultiLineTextBox22);
-            this.materialCard25.Controls.Add(this.materialButton26);
-            this.materialCard25.Controls.Add(this.pictureBox44);
-            this.materialCard25.Depth = 0;
-            this.materialCard25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard25.Location = new System.Drawing.Point(782, 540);
-            this.materialCard25.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard25.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard25.Name = "materialCard25";
-            this.materialCard25.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard25.Size = new System.Drawing.Size(606, 153);
-            this.materialCard25.TabIndex = 11;
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox43.BackColor = System.Drawing.Color.White;
-            this.pictureBox43.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox43.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox43.TabIndex = 9;
-            this.pictureBox43.TabStop = false;
-            // 
-            // materialMultiLineTextBox22
-            // 
-            this.materialMultiLineTextBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox22.Depth = 0;
-            this.materialMultiLineTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox22.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox22.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox22.Name = "materialMultiLineTextBox22";
-            this.materialMultiLineTextBox22.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox22.TabIndex = 7;
-            this.materialMultiLineTextBox22.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // materialButton26
-            // 
-            this.materialButton26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton26.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton26.Depth = 0;
-            this.materialButton26.HighEmphasis = false;
-            this.materialButton26.Icon = null;
-            this.materialButton26.Location = new System.Drawing.Point(505, 101);
-            this.materialButton26.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton26.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton26.Name = "materialButton26";
-            this.materialButton26.Size = new System.Drawing.Size(85, 36);
-            this.materialButton26.TabIndex = 1;
-            this.materialButton26.Text = "加入餐點";
-            this.materialButton26.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton26.UseAccentColor = true;
-            this.materialButton26.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox44.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox44.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox44.TabIndex = 0;
-            this.pictureBox44.TabStop = false;
-            // 
-            // materialCard26
-            // 
-            this.materialCard26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard26.Controls.Add(this.numericUpDown1);
-            this.materialCard26.Controls.Add(this.pictureBox45);
-            this.materialCard26.Controls.Add(this.materialButton27);
-            this.materialCard26.Controls.Add(this.materialMultiLineTextBox23);
-            this.materialCard26.Controls.Add(this.pictureBox46);
-            this.materialCard26.Depth = 0;
-            this.materialCard26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard26.Location = new System.Drawing.Point(80, 182);
-            this.materialCard26.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard26.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard26.Name = "materialCard26";
-            this.materialCard26.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard26.Size = new System.Drawing.Size(606, 153);
-            this.materialCard26.TabIndex = 11;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.BackColor = System.Drawing.Color.Snow;
-            this.numericUpDown1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
-            this.numericUpDown1.ForeColor = System.Drawing.Color.Crimson;
-            this.numericUpDown1.Location = new System.Drawing.Point(234, 111);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(55, 26);
-            this.numericUpDown1.TabIndex = 36;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // pictureBox45
-            // 
-            this.pictureBox45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox45.BackColor = System.Drawing.Color.White;
-            this.pictureBox45.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox45.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox45.TabIndex = 9;
-            this.pictureBox45.TabStop = false;
-            // 
-            // materialButton27
-            // 
-            this.materialButton27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton27.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton27.Depth = 0;
-            this.materialButton27.HighEmphasis = false;
-            this.materialButton27.Icon = null;
-            this.materialButton27.Location = new System.Drawing.Point(503, 101);
-            this.materialButton27.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton27.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton27.Name = "materialButton27";
-            this.materialButton27.Size = new System.Drawing.Size(85, 36);
-            this.materialButton27.TabIndex = 1;
-            this.materialButton27.Text = "加入餐點";
-            this.materialButton27.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton27.UseAccentColor = true;
-            this.materialButton27.UseVisualStyleBackColor = true;
-            // 
-            // materialMultiLineTextBox23
-            // 
-            this.materialMultiLineTextBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox23.Depth = 0;
-            this.materialMultiLineTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox23.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox23.Name = "materialMultiLineTextBox23";
-            this.materialMultiLineTextBox23.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox23.TabIndex = 7;
-            this.materialMultiLineTextBox23.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox46.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox46.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox46.TabIndex = 0;
-            this.pictureBox46.TabStop = false;
-            // 
-            // materialCard27
-            // 
-            this.materialCard27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard27.Controls.Add(this.pictureBox47);
-            this.materialCard27.Controls.Add(this.materialMultiLineTextBox24);
-            this.materialCard27.Controls.Add(this.materialButton28);
-            this.materialCard27.Controls.Add(this.pictureBox48);
-            this.materialCard27.Depth = 0;
-            this.materialCard27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard27.Location = new System.Drawing.Point(80, 361);
-            this.materialCard27.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard27.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard27.Name = "materialCard27";
-            this.materialCard27.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard27.Size = new System.Drawing.Size(606, 153);
-            this.materialCard27.TabIndex = 11;
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox47.BackColor = System.Drawing.Color.White;
-            this.pictureBox47.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox47.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox47.TabIndex = 9;
-            this.pictureBox47.TabStop = false;
-            // 
-            // materialMultiLineTextBox24
-            // 
-            this.materialMultiLineTextBox24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox24.Depth = 0;
-            this.materialMultiLineTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox24.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox24.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox24.Name = "materialMultiLineTextBox24";
-            this.materialMultiLineTextBox24.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox24.TabIndex = 7;
-            this.materialMultiLineTextBox24.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // materialButton28
-            // 
-            this.materialButton28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton28.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton28.Depth = 0;
-            this.materialButton28.HighEmphasis = false;
-            this.materialButton28.Icon = null;
-            this.materialButton28.Location = new System.Drawing.Point(503, 105);
-            this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton28.Name = "materialButton28";
-            this.materialButton28.Size = new System.Drawing.Size(85, 36);
-            this.materialButton28.TabIndex = 1;
-            this.materialButton28.Text = "加入餐點";
-            this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton28.UseAccentColor = true;
-            this.materialButton28.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox48.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox48.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox48.TabIndex = 0;
-            this.pictureBox48.TabStop = false;
-            // 
-            // materialCard28
-            // 
-            this.materialCard28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard28.Controls.Add(this.pictureBox49);
-            this.materialCard28.Controls.Add(this.materialMultiLineTextBox25);
-            this.materialCard28.Controls.Add(this.materialButton29);
-            this.materialCard28.Controls.Add(this.pictureBox50);
-            this.materialCard28.Depth = 0;
-            this.materialCard28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard28.Location = new System.Drawing.Point(782, 361);
-            this.materialCard28.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard28.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard28.Name = "materialCard28";
-            this.materialCard28.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard28.Size = new System.Drawing.Size(606, 153);
-            this.materialCard28.TabIndex = 11;
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox49.BackColor = System.Drawing.Color.White;
-            this.pictureBox49.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox49.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox49.TabIndex = 9;
-            this.pictureBox49.TabStop = false;
-            // 
-            // materialMultiLineTextBox25
-            // 
-            this.materialMultiLineTextBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox25.Depth = 0;
-            this.materialMultiLineTextBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox25.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox25.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox25.Name = "materialMultiLineTextBox25";
-            this.materialMultiLineTextBox25.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox25.TabIndex = 7;
-            this.materialMultiLineTextBox25.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // materialButton29
-            // 
-            this.materialButton29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton29.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton29.Depth = 0;
-            this.materialButton29.HighEmphasis = false;
-            this.materialButton29.Icon = null;
-            this.materialButton29.Location = new System.Drawing.Point(503, 101);
-            this.materialButton29.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton29.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton29.Name = "materialButton29";
-            this.materialButton29.Size = new System.Drawing.Size(85, 36);
-            this.materialButton29.TabIndex = 1;
-            this.materialButton29.Text = "加入餐點";
-            this.materialButton29.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton29.UseAccentColor = true;
-            this.materialButton29.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox50.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox50.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox50.TabIndex = 0;
-            this.pictureBox50.TabStop = false;
-            // 
-            // materialCard29
-            // 
-            this.materialCard29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard29.Controls.Add(this.pictureBox51);
-            this.materialCard29.Controls.Add(this.materialMultiLineTextBox26);
-            this.materialCard29.Controls.Add(this.materialButton30);
-            this.materialCard29.Controls.Add(this.pictureBox52);
-            this.materialCard29.Depth = 0;
-            this.materialCard29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard29.Location = new System.Drawing.Point(782, 182);
-            this.materialCard29.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard29.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard29.Name = "materialCard29";
-            this.materialCard29.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
-            this.materialCard29.Size = new System.Drawing.Size(606, 153);
-            this.materialCard29.TabIndex = 11;
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox51.BackColor = System.Drawing.Color.White;
-            this.pictureBox51.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
-            this.pictureBox51.Location = new System.Drawing.Point(441, 101);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox51.TabIndex = 9;
-            this.pictureBox51.TabStop = false;
-            // 
-            // materialMultiLineTextBox26
-            // 
-            this.materialMultiLineTextBox26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialMultiLineTextBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox26.Depth = 0;
-            this.materialMultiLineTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
-            this.materialMultiLineTextBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox26.Location = new System.Drawing.Point(234, 16);
-            this.materialMultiLineTextBox26.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox26.Name = "materialMultiLineTextBox26";
-            this.materialMultiLineTextBox26.Size = new System.Drawing.Size(355, 79);
-            this.materialMultiLineTextBox26.TabIndex = 7;
-            this.materialMultiLineTextBox26.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
-            // 
-            // materialButton30
-            // 
-            this.materialButton30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialButton30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton30.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton30.Depth = 0;
-            this.materialButton30.HighEmphasis = false;
-            this.materialButton30.Icon = null;
-            this.materialButton30.Location = new System.Drawing.Point(503, 101);
-            this.materialButton30.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton30.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton30.Name = "materialButton30";
-            this.materialButton30.Size = new System.Drawing.Size(85, 36);
-            this.materialButton30.TabIndex = 1;
-            this.materialButton30.Text = "加入餐點";
-            this.materialButton30.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton30.UseAccentColor = true;
-            this.materialButton30.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox52.Image = global::期中.Properties.Resources.turkey;
-            this.pictureBox52.Location = new System.Drawing.Point(53, 16);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(157, 121);
-            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox52.TabIndex = 0;
-            this.pictureBox52.TabStop = false;
             // 
             // materialLabel41
             // 
@@ -923,7 +447,7 @@ namespace 期中
             this.materialButton12.Depth = 0;
             this.materialButton12.HighEmphasis = false;
             this.materialButton12.Icon = null;
-            this.materialButton12.Location = new System.Drawing.Point(3370, 1181);
+            this.materialButton12.Location = new System.Drawing.Point(8039, 1181);
             this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton12.Name = "materialButton12";
@@ -1601,6 +1125,506 @@ namespace 期中
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
+            // materialCard16
+            // 
+            this.materialCard16.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.materialCard16.AutoScroll = true;
+            this.materialCard16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard16.Controls.Add(this.materialLabel7);
+            this.materialCard16.Controls.Add(this.materialCard24);
+            this.materialCard16.Controls.Add(this.materialCard25);
+            this.materialCard16.Controls.Add(this.materialCard26);
+            this.materialCard16.Controls.Add(this.materialCard27);
+            this.materialCard16.Controls.Add(this.materialCard28);
+            this.materialCard16.Controls.Add(this.materialCard29);
+            this.materialCard16.Depth = 0;
+            this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard16.Location = new System.Drawing.Point(1726, 174);
+            this.materialCard16.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard16.MaximumSize = new System.Drawing.Size(1500, 1300);
+            this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard16.Name = "materialCard16";
+            this.materialCard16.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard16.Size = new System.Drawing.Size(1426, 916);
+            this.materialCard16.TabIndex = 22;
+            this.materialCard16.Visible = false;
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H3;
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(70, 13);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(193, 58);
+            this.materialLabel7.TabIndex = 79;
+            this.materialLabel7.Text = "個人收藏";
+            this.materialLabel7.UseAccent = true;
+            // 
+            // materialCard24
+            // 
+            this.materialCard24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard24.Controls.Add(this.pictureBox41);
+            this.materialCard24.Controls.Add(this.materialMultiLineTextBox21);
+            this.materialCard24.Controls.Add(this.materialButton25);
+            this.materialCard24.Controls.Add(this.pictureBox42);
+            this.materialCard24.Depth = 0;
+            this.materialCard24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard24.Location = new System.Drawing.Point(80, 540);
+            this.materialCard24.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard24.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard24.Name = "materialCard24";
+            this.materialCard24.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard24.Size = new System.Drawing.Size(606, 153);
+            this.materialCard24.TabIndex = 11;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox41.BackColor = System.Drawing.Color.White;
+            this.pictureBox41.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox41.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox41.TabIndex = 9;
+            this.pictureBox41.TabStop = false;
+            // 
+            // materialMultiLineTextBox21
+            // 
+            this.materialMultiLineTextBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox21.Depth = 0;
+            this.materialMultiLineTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox21.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox21.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox21.Name = "materialMultiLineTextBox21";
+            this.materialMultiLineTextBox21.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox21.TabIndex = 7;
+            this.materialMultiLineTextBox21.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // materialButton25
+            // 
+            this.materialButton25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton25.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton25.Depth = 0;
+            this.materialButton25.HighEmphasis = false;
+            this.materialButton25.Icon = null;
+            this.materialButton25.Location = new System.Drawing.Point(505, 101);
+            this.materialButton25.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton25.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton25.Name = "materialButton25";
+            this.materialButton25.Size = new System.Drawing.Size(85, 36);
+            this.materialButton25.TabIndex = 1;
+            this.materialButton25.Text = "加入餐點";
+            this.materialButton25.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton25.UseAccentColor = true;
+            this.materialButton25.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox42.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox42.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox42.TabIndex = 0;
+            this.pictureBox42.TabStop = false;
+            // 
+            // materialCard25
+            // 
+            this.materialCard25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard25.Controls.Add(this.pictureBox43);
+            this.materialCard25.Controls.Add(this.materialMultiLineTextBox22);
+            this.materialCard25.Controls.Add(this.materialButton26);
+            this.materialCard25.Controls.Add(this.pictureBox44);
+            this.materialCard25.Depth = 0;
+            this.materialCard25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard25.Location = new System.Drawing.Point(782, 540);
+            this.materialCard25.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard25.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard25.Name = "materialCard25";
+            this.materialCard25.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard25.Size = new System.Drawing.Size(606, 153);
+            this.materialCard25.TabIndex = 11;
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox43.BackColor = System.Drawing.Color.White;
+            this.pictureBox43.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox43.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox43.TabIndex = 9;
+            this.pictureBox43.TabStop = false;
+            // 
+            // materialMultiLineTextBox22
+            // 
+            this.materialMultiLineTextBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox22.Depth = 0;
+            this.materialMultiLineTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox22.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox22.Name = "materialMultiLineTextBox22";
+            this.materialMultiLineTextBox22.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox22.TabIndex = 7;
+            this.materialMultiLineTextBox22.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // materialButton26
+            // 
+            this.materialButton26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton26.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton26.Depth = 0;
+            this.materialButton26.HighEmphasis = false;
+            this.materialButton26.Icon = null;
+            this.materialButton26.Location = new System.Drawing.Point(505, 101);
+            this.materialButton26.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton26.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton26.Name = "materialButton26";
+            this.materialButton26.Size = new System.Drawing.Size(85, 36);
+            this.materialButton26.TabIndex = 1;
+            this.materialButton26.Text = "加入餐點";
+            this.materialButton26.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton26.UseAccentColor = true;
+            this.materialButton26.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox44
+            // 
+            this.pictureBox44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox44.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox44.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox44.Name = "pictureBox44";
+            this.pictureBox44.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox44.TabIndex = 0;
+            this.pictureBox44.TabStop = false;
+            // 
+            // materialCard26
+            // 
+            this.materialCard26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard26.Controls.Add(this.numericUpDown1);
+            this.materialCard26.Controls.Add(this.pictureBox45);
+            this.materialCard26.Controls.Add(this.materialButton27);
+            this.materialCard26.Controls.Add(this.materialMultiLineTextBox23);
+            this.materialCard26.Controls.Add(this.pictureBox46);
+            this.materialCard26.Depth = 0;
+            this.materialCard26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard26.Location = new System.Drawing.Point(80, 182);
+            this.materialCard26.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard26.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard26.Name = "materialCard26";
+            this.materialCard26.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard26.Size = new System.Drawing.Size(606, 153);
+            this.materialCard26.TabIndex = 11;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.BackColor = System.Drawing.Color.Snow;
+            this.numericUpDown1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold);
+            this.numericUpDown1.ForeColor = System.Drawing.Color.Crimson;
+            this.numericUpDown1.Location = new System.Drawing.Point(234, 111);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(55, 26);
+            this.numericUpDown1.TabIndex = 36;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // pictureBox45
+            // 
+            this.pictureBox45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox45.BackColor = System.Drawing.Color.White;
+            this.pictureBox45.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox45.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox45.Name = "pictureBox45";
+            this.pictureBox45.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox45.TabIndex = 9;
+            this.pictureBox45.TabStop = false;
+            // 
+            // materialButton27
+            // 
+            this.materialButton27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton27.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton27.Depth = 0;
+            this.materialButton27.HighEmphasis = false;
+            this.materialButton27.Icon = null;
+            this.materialButton27.Location = new System.Drawing.Point(503, 101);
+            this.materialButton27.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton27.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton27.Name = "materialButton27";
+            this.materialButton27.Size = new System.Drawing.Size(85, 36);
+            this.materialButton27.TabIndex = 1;
+            this.materialButton27.Text = "加入餐點";
+            this.materialButton27.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton27.UseAccentColor = true;
+            this.materialButton27.UseVisualStyleBackColor = true;
+            // 
+            // materialMultiLineTextBox23
+            // 
+            this.materialMultiLineTextBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox23.Depth = 0;
+            this.materialMultiLineTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox23.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox23.Name = "materialMultiLineTextBox23";
+            this.materialMultiLineTextBox23.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox23.TabIndex = 7;
+            this.materialMultiLineTextBox23.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox46.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox46.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox46.TabIndex = 0;
+            this.pictureBox46.TabStop = false;
+            // 
+            // materialCard27
+            // 
+            this.materialCard27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard27.Controls.Add(this.pictureBox47);
+            this.materialCard27.Controls.Add(this.materialMultiLineTextBox24);
+            this.materialCard27.Controls.Add(this.materialButton28);
+            this.materialCard27.Controls.Add(this.pictureBox48);
+            this.materialCard27.Depth = 0;
+            this.materialCard27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard27.Location = new System.Drawing.Point(80, 361);
+            this.materialCard27.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard27.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard27.Name = "materialCard27";
+            this.materialCard27.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard27.Size = new System.Drawing.Size(606, 153);
+            this.materialCard27.TabIndex = 11;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox47.BackColor = System.Drawing.Color.White;
+            this.pictureBox47.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox47.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox47.TabIndex = 9;
+            this.pictureBox47.TabStop = false;
+            // 
+            // materialMultiLineTextBox24
+            // 
+            this.materialMultiLineTextBox24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox24.Depth = 0;
+            this.materialMultiLineTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox24.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox24.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox24.Name = "materialMultiLineTextBox24";
+            this.materialMultiLineTextBox24.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox24.TabIndex = 7;
+            this.materialMultiLineTextBox24.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // materialButton28
+            // 
+            this.materialButton28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton28.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton28.Depth = 0;
+            this.materialButton28.HighEmphasis = false;
+            this.materialButton28.Icon = null;
+            this.materialButton28.Location = new System.Drawing.Point(503, 105);
+            this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton28.Name = "materialButton28";
+            this.materialButton28.Size = new System.Drawing.Size(85, 36);
+            this.materialButton28.TabIndex = 1;
+            this.materialButton28.Text = "加入餐點";
+            this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton28.UseAccentColor = true;
+            this.materialButton28.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox48.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox48.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox48.TabIndex = 0;
+            this.pictureBox48.TabStop = false;
+            // 
+            // materialCard28
+            // 
+            this.materialCard28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard28.Controls.Add(this.pictureBox49);
+            this.materialCard28.Controls.Add(this.materialMultiLineTextBox25);
+            this.materialCard28.Controls.Add(this.materialButton29);
+            this.materialCard28.Controls.Add(this.pictureBox50);
+            this.materialCard28.Depth = 0;
+            this.materialCard28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard28.Location = new System.Drawing.Point(782, 361);
+            this.materialCard28.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard28.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard28.Name = "materialCard28";
+            this.materialCard28.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard28.Size = new System.Drawing.Size(606, 153);
+            this.materialCard28.TabIndex = 11;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox49.BackColor = System.Drawing.Color.White;
+            this.pictureBox49.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox49.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox49.TabIndex = 9;
+            this.pictureBox49.TabStop = false;
+            // 
+            // materialMultiLineTextBox25
+            // 
+            this.materialMultiLineTextBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox25.Depth = 0;
+            this.materialMultiLineTextBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox25.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox25.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox25.Name = "materialMultiLineTextBox25";
+            this.materialMultiLineTextBox25.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox25.TabIndex = 7;
+            this.materialMultiLineTextBox25.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // materialButton29
+            // 
+            this.materialButton29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton29.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton29.Depth = 0;
+            this.materialButton29.HighEmphasis = false;
+            this.materialButton29.Icon = null;
+            this.materialButton29.Location = new System.Drawing.Point(503, 101);
+            this.materialButton29.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton29.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton29.Name = "materialButton29";
+            this.materialButton29.Size = new System.Drawing.Size(85, 36);
+            this.materialButton29.TabIndex = 1;
+            this.materialButton29.Text = "加入餐點";
+            this.materialButton29.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton29.UseAccentColor = true;
+            this.materialButton29.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox50.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox50.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox50.TabIndex = 0;
+            this.pictureBox50.TabStop = false;
+            // 
+            // materialCard29
+            // 
+            this.materialCard29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard29.Controls.Add(this.pictureBox51);
+            this.materialCard29.Controls.Add(this.materialMultiLineTextBox26);
+            this.materialCard29.Controls.Add(this.materialButton30);
+            this.materialCard29.Controls.Add(this.pictureBox52);
+            this.materialCard29.Depth = 0;
+            this.materialCard29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard29.Location = new System.Drawing.Point(782, 182);
+            this.materialCard29.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard29.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard29.Name = "materialCard29";
+            this.materialCard29.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
+            this.materialCard29.Size = new System.Drawing.Size(606, 153);
+            this.materialCard29.TabIndex = 11;
+            // 
+            // pictureBox51
+            // 
+            this.pictureBox51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox51.BackColor = System.Drawing.Color.White;
+            this.pictureBox51.Image = global::期中.Properties.Resources.baseline_favorite_border_black_24dp;
+            this.pictureBox51.Location = new System.Drawing.Point(441, 101);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox51.TabIndex = 9;
+            this.pictureBox51.TabStop = false;
+            // 
+            // materialMultiLineTextBox26
+            // 
+            this.materialMultiLineTextBox26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialMultiLineTextBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox26.Depth = 0;
+            this.materialMultiLineTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.95F);
+            this.materialMultiLineTextBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox26.Location = new System.Drawing.Point(234, 16);
+            this.materialMultiLineTextBox26.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox26.Name = "materialMultiLineTextBox26";
+            this.materialMultiLineTextBox26.Size = new System.Drawing.Size(355, 79);
+            this.materialMultiLineTextBox26.TabIndex = 7;
+            this.materialMultiLineTextBox26.Text = "老闆不要前老闆不要錢老闆不要前老闆不要錢";
+            // 
+            // materialButton30
+            // 
+            this.materialButton30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton30.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton30.Depth = 0;
+            this.materialButton30.HighEmphasis = false;
+            this.materialButton30.Icon = null;
+            this.materialButton30.Location = new System.Drawing.Point(503, 101);
+            this.materialButton30.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton30.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton30.Name = "materialButton30";
+            this.materialButton30.Size = new System.Drawing.Size(85, 36);
+            this.materialButton30.TabIndex = 1;
+            this.materialButton30.Text = "加入餐點";
+            this.materialButton30.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton30.UseAccentColor = true;
+            this.materialButton30.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox52.Image = global::期中.Properties.Resources.turkey;
+            this.pictureBox52.Location = new System.Drawing.Point(53, 16);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(157, 121);
+            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox52.TabIndex = 0;
+            this.pictureBox52.TabStop = false;
+            // 
             // materialCard11
             // 
             this.materialCard11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -1661,7 +1685,7 @@ namespace 期中
             this.materialCard7.Controls.Add(this.materialLabel5);
             this.materialCard7.Depth = 0;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard7.Location = new System.Drawing.Point(0, 183);
+            this.materialCard7.Location = new System.Drawing.Point(0, 174);
             this.materialCard7.Margin = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
@@ -2213,40 +2237,18 @@ namespace 期中
             this.materialCard10.Size = new System.Drawing.Size(1847, 70);
             this.materialCard10.TabIndex = 36;
             // 
-            // richTextBox1備註
-            // 
-            this.richTextBox1備註.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1備註.Location = new System.Drawing.Point(27, 504);
-            this.richTextBox1備註.Name = "richTextBox1備註";
-            this.richTextBox1備註.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.richTextBox1備註.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox1備註.Size = new System.Drawing.Size(744, 141);
-            this.richTextBox1備註.TabIndex = 26;
-            this.richTextBox1備註.Text = "";
-            // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel8.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel8.Location = new System.Drawing.Point(27, 460);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(37, 19);
-            this.materialLabel8.TabIndex = 13;
-            this.materialLabel8.Text = "備註:";
-            // 
             // Form5
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(101F, 101F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1560, 1100);
             this.Controls.Add(this.materialCard15);
+            this.Controls.Add(this.materialCard16);
             this.Controls.Add(this.materialFloatingActionButton2);
             this.Controls.Add(this.materialCard7);
             this.Controls.Add(this.materialCard4);
@@ -2261,33 +2263,6 @@ namespace 期中
             this.訂購單ExpansionPanel1.PerformLayout();
             this.materialCard4.ResumeLayout(false);
             this.materialCard4.PerformLayout();
-            this.materialCard16.ResumeLayout(false);
-            this.materialCard16.PerformLayout();
-            this.materialCard24.ResumeLayout(false);
-            this.materialCard24.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            this.materialCard25.ResumeLayout(false);
-            this.materialCard25.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            this.materialCard26.ResumeLayout(false);
-            this.materialCard26.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            this.materialCard27.ResumeLayout(false);
-            this.materialCard27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            this.materialCard28.ResumeLayout(false);
-            this.materialCard28.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
-            this.materialCard29.ResumeLayout(false);
-            this.materialCard29.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
             this.materialCard13.ResumeLayout(false);
             this.materialCard13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
@@ -2324,6 +2299,33 @@ namespace 期中
             this.materialCard2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.materialCard16.ResumeLayout(false);
+            this.materialCard16.PerformLayout();
+            this.materialCard24.ResumeLayout(false);
+            this.materialCard24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            this.materialCard25.ResumeLayout(false);
+            this.materialCard25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
+            this.materialCard26.ResumeLayout(false);
+            this.materialCard26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
+            this.materialCard27.ResumeLayout(false);
+            this.materialCard27.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
+            this.materialCard28.ResumeLayout(false);
+            this.materialCard28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
+            this.materialCard29.ResumeLayout(false);
+            this.materialCard29.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
             this.materialCard11.ResumeLayout(false);
             this.materialCard11.PerformLayout();
             this.materialCard7.ResumeLayout(false);

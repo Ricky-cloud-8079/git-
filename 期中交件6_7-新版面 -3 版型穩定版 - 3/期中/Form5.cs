@@ -1,13 +1,6 @@
-﻿using System;
-using MaterialSkin;
+﻿using MaterialSkin;
 using MaterialSkin.Controls;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using System.Windows.Forms;
 
 namespace 期中
@@ -26,7 +19,7 @@ namespace 期中
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Pink400, Primary.Pink500, Primary.Pink100, Accent.Pink200, TextShade.WHITE);
 
             //主色,主元件色,主元件hover
-           
+
 
 
         }
@@ -43,7 +36,7 @@ namespace 期中
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void materialFloatingActionButton2_Click(object sender, EventArgs e)
@@ -58,7 +51,8 @@ namespace 期中
                 materialCard16.Visible = true;
                 panel1.Enabled = false;
             }
-            else { 
+            else
+            {
                 materialCard16.Visible = false;
                 panel1.Enabled = true;
 
@@ -71,7 +65,7 @@ namespace 期中
             {
                 materialProgressBar1.Value = Math.Min(materialProgressBar1.Value + 5, 100);
                 progess += 50;
-                materialLabel55.Text = "NT$"+progess;
+                materialLabel55.Text = "NT$" + progess;
             }
 
         }
@@ -91,12 +85,12 @@ namespace 期中
         {
             if (上次訂購materialSwitch1.Checked)
             {
-               
+
                 panel1.Enabled = false;
             }
             else
             {
-               
+
                 panel1.Enabled = true;
 
             }
