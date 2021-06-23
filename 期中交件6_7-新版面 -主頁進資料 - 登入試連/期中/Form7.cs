@@ -27,13 +27,14 @@ namespace 期中
 
         private void Form7_Load(object sender, EventArgs e)
         {
-           
+
           
 
             // TODO: 這行程式碼會將資料載入 'mydbDataSet2.學生' 資料表。您可以視需要進行移動或移除。
             this.學生TableAdapter1.Fill(this.mydbDataSet2.學生);
             cbox班級選擇.SelectedIndex = 0;
             cbox搜尋欄位.SelectedIndex = 0;
+            cbox班級選擇2.SelectedIndex = 0;
             listBox2學員.SelectedIndex = 0;
             listBox2學員.SelectedValue = 1;
 
@@ -300,17 +301,23 @@ namespace 期中
         {
             lbox搜尋結果.Items.Clear(); 
             SearchIDs.Clear();              
-            string strFieldName = cbox搜尋欄位.SelectedItem.ToString(); 
+            string strFieldName = cbox搜尋欄位.SelectedItem.ToString();
+            string strFieldName班級 = cbox班級選擇2.SelectedItem.ToString();
 
+            if (strFieldName=="姓名")
+            {
+                strFieldName = "stName";
+            }
             if (txt搜尋字串.Text != "")
             {
-                string strSQL = "select * from persons where (" + strFieldName + " like @SearchString) and (生日 >= @StartDate and 生日 <= @EndDate)"; // 所選欄位+ 搜尋條件
+                string strSQL = "select * from 學生 where (" + strFieldName + " like @SearchString) and (生日 >= @StartDate and 生日 <= @EndDate)and (班級 like @Class)"; // 所選欄位+ 搜尋條件
                 //sop
                 SqlConnection con = new SqlConnection(myDBConnectionString);
                 con.Open();
                 SqlCommand cmd = new SqlCommand(strSQL, con);
                 //補參數
                 cmd.Parameters.AddWithValue("@SearchString", "%" + txt搜尋字串.Text + "%");//搜尋內容
+                cmd.Parameters.AddWithValue("@Class", "%" + strFieldName班級 + "%");
                 cmd.Parameters.AddWithValue("@StartDate", dtp開始時間.Value);   
                 cmd.Parameters.AddWithValue("@EndDate", dtp結束時間.Value);     
 
@@ -318,7 +325,7 @@ namespace 期中
                 int i = 0; //筆數
                 while (reader.Read())           //Read遍歷有讀到true =>  有找到的每筆 ID存進串列
                 {
-                    lbox搜尋結果.Items.Add(reader["姓名"] + "  " + reader["email"] + "  " + reader["電話"]);  //結果 讀入欄位 add Items             對應↓
+                    lbox搜尋結果.Items.Add(reader["stName"] + "  " + reader["email"] + "  " + reader["電話"]);  //結果 讀入欄位 add Items             對應↓
                     
                     SearchIDs.Add((int)reader["id"]);       //結果ID 讀入欄位  add id串列                                                        key對應↑
                    
@@ -337,7 +344,14 @@ namespace 期中
             
             {
                 MessageBox.Show("請輸入搜尋關鍵字");
+                
             }
+
+
+
+            //var aa = SearchIDs.Where(x => x > 1);
+            //List<int> bb= aa.ToList();
+            //Console.WriteLine(bb[1]);
         }
 
         private void cbox搜尋欄位_SelectedIndexChanged(object sender, EventArgs e)

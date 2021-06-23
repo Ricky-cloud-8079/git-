@@ -103,6 +103,7 @@ namespace 期中
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.mydbDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mydbDataSet)).BeginInit();
@@ -173,7 +174,7 @@ namespace 期中
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(266, 204);
+            this.label12.Location = new System.Drawing.Point(266, 206);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(20, 13);
             this.label12.TabIndex = 7;
@@ -457,6 +458,7 @@ namespace 期中
             this.materialCard1.Controls.Add(this.label11);
             this.materialCard1.Controls.Add(this.dtp開始時間);
             this.materialCard1.Controls.Add(this.txt搜尋字串);
+            this.materialCard1.Controls.Add(this.label18);
             this.materialCard1.Controls.Add(this.label10);
             this.materialCard1.Controls.Add(this.btn進階);
             this.materialCard1.Depth = 0;
@@ -474,7 +476,7 @@ namespace 期中
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label17.Location = new System.Drawing.Point(20, 251);
+            this.label17.Location = new System.Drawing.Point(423, 75);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(52, 25);
             this.label17.TabIndex = 64;
@@ -488,7 +490,7 @@ namespace 期中
             "JAVA",
             "全端工程",
             "全方位IT"});
-            this.cbox班級選擇2.Location = new System.Drawing.Point(46, 281);
+            this.cbox班級選擇2.Location = new System.Drawing.Point(428, 110);
             this.cbox班級選擇2.Name = "cbox班級選擇2";
             this.cbox班級選擇2.Size = new System.Drawing.Size(107, 27);
             this.cbox班級選擇2.TabIndex = 63;
@@ -500,6 +502,7 @@ namespace 期中
             this.cbox搜尋欄位.Items.AddRange(new object[] {
             "姓名",
             "電話",
+            "生日",
             "email",
             "地址"});
             this.cbox搜尋欄位.Location = new System.Drawing.Point(306, 112);
@@ -906,6 +909,17 @@ namespace 期中
             this.textBox2.Size = new System.Drawing.Size(396, 28);
             this.textBox2.TabIndex = 12;
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label18.Location = new System.Drawing.Point(301, 75);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(92, 25);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "搜索條件";
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -1027,5 +1041,6 @@ namespace 期中
         private ComboBox cbox搜尋欄位;
         private Label label17;
         private ComboBox cbox班級選擇2;
+        private Label label18;
     }
 }

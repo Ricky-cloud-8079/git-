@@ -75,7 +75,7 @@ namespace 期中
           
 
             訂購單ExpansionPanel1.BorderStyle = BorderStyle.FixedSingle;
-            訂購單ExpansionPanel1.Size = new Size(800, 787);
+            訂購單ExpansionPanel1.Size = new Size(820, 787);
             訂購單ExpansionPanel1.Collapse = true;
             訂購單ExpansionPanel1.ExpandHeight = 787;
             richTextBox1備註.BorderStyle = BorderStyle.FixedSingle;
